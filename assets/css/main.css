@@ -3334,6 +3334,18 @@ input, select, textarea {
 			text-align: center;
 		}
 		
+		h3 {
+			font-size: 1.5em; /* Adjust the font size as needed */
+			margin-bottom: 10px;
+		}
+		
+		@media (max-width: 768px) {
+			h3 {
+				font-size: 1.2em; /* Adjust the font size for smaller screens */
+			}
+		
+		}
+		
 		.social-link {
 			display: inline-block;
 			margin: 10px;
