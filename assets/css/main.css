@@ -3318,7 +3318,34 @@ input, select, textarea {
 				#nav.alt ul li a {
 					font-size: 0.9em;
 				}
+@media screen and (max-width: 736px) {
 
+			#nav {
+				display: none;
+			}
+
+				#nav + #main {
+					padding-top: 0;
+				}
+
+		}
+		.center {
+			text-align: center;
+		}
+		
+		.social-link {
+			display: inline-block;
+			margin: 10px;
+			text-decoration: none;
+			color: #f3f0f0;
+		}
+		
+		.social-link img {
+			width: 20px;
+			height: 20px;
+			vertical-align: middle;
+			margin-right: 5px;
+		}
 		@media screen and (max-width: 736px) {
 
 			#nav {
